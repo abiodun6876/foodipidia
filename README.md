@@ -5,3 +5,14 @@ This template should help get you started developing with Vue 3 in Vite. The tem
 ## Recommended IDE Setup
 
 - [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+
+- install all these packages and dependency:
+-npm install tailwindcss
+npm install vuex
+- npm install -g @vue/cli
+vue-cli-service build
+npm install @tailwindcss/forms
+npm install axios
+
+
+
