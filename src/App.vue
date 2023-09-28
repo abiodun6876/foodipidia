@@ -5,11 +5,11 @@
   <br/>
 
 <h1 class="text-5xl items-center font-bold mb-4 bg-orange-500">Verified Sellers</h1>
-  <div class="flex justify-center items-center py-8">
+<div class="py-8">
     <!-- Seller Profiles -->
-    <div v-for="seller in sellers" :key="seller.id" class="flex items-center mb-4">
+    <div v-for="seller in sellers" :key="seller.id" class="flex flex-col sm:flex-row items-center mb-4">
       <!-- Round Profile Image -->
-      <div class="w-16 h-16 bg-blue-500 rounded-full flex-shrink-0 overflow-hidden">
+      <div class="w-16 h-16 bg-blue-500 rounded-full flex-shrink-0 mb-4 sm:mb-0 sm:mr-4 overflow-hidden">
         <img
           :src="seller.profilePicture"
           alt="Seller Profile"
@@ -18,7 +18,7 @@
       </div>
 
       <!-- Seller Details -->
-      <div class="ml-4">
+      <div>
         <h2 class="text-lg font-semibold">{{ seller.name }}</h2>
         <p class="text-gray-600">{{ seller.address }}</p>
         <p class="text-gray-600">{{ seller.contacts }}</p>
