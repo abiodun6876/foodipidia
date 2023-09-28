@@ -7,6 +7,9 @@ import MealsByLetter from '../views/MealsByLetter.vue'
 import MealsByName from '../views/MealsByName.vue'
 import MealDetails from '../views/MealDetails.vue'
 import Ingredients from '../views/Ingredients.vue'
+import RegisterForm from '../components/RegisterForm.vue'
+import Sucess from '../components/Sucess.vue'
+import Fail from '../components/Fail.vue'
 
 const routes = [
   {
@@ -42,12 +45,30 @@ const routes = [
         path: '/meal/:id',
         name: 'mealDetails',
         component: MealDetails
-      }
+      },
+
+      {
+        path: '/RegisterForm',
+        name: 'RegisterForm',
+        component: RegisterForm,
+      },
+      {
+        path: '/Sucess',
+        name: 'Sucess',
+        component: Sucess,
+      },
+
+      {
+        path: '/Fail',
+        name: 'Fail',
+        component: Fail,
+      },
+      
     ]
   },
   {
     path: '/guest',
-    component: GuestLayout
+    component: GuestLayout,
   }
 ];
 

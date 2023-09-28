@@ -62,6 +62,14 @@
         >
           Meals By Ingredients
         </router-link>
+
+        <router-link
+          :to="{ name: 'RegisterForm' }"
+          class="block px-4 py-2 text-orange-500 font-bold hover:bg-orange-500 hover:text-white"
+        >
+        Become Seller
+        </router-link>
+
       </nav>
   
       <!-- Desktop Navigation Menu (Hidden on mobile) -->
@@ -91,6 +99,15 @@
           >
             Meals By Ingredients
           </router-link>
+
+          <router-link
+            :to="{ name: 'RegisterForm' }"
+            class="inline-flex items-center transition-colors hover:bg-orange-500 hover:text-white"
+          >
+          Become Seller
+          </router-link>
+
+
         </div>
       </nav>
   <br/>
