@@ -10,6 +10,9 @@ import Ingredients from '../views/Ingredients.vue'
 import RegisterForm from '../components/RegisterForm.vue'
 import Sucess from '../components/Sucess.vue'
 import Fail from '../components/Fail.vue'
+import LoginForm from '../components/LoginForm.vue'
+
+
 
 const routes = [
   {
@@ -63,6 +66,12 @@ const routes = [
         name: 'Fail',
         component: Fail,
       },
+      {
+        path: '/LoginForm',
+        name: 'LoginForm',
+        component: LoginForm,
+      },
+
       
     ]
   },

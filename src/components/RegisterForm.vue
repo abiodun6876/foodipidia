@@ -57,6 +57,34 @@
           required
         />
       </div>
+
+
+
+      <div class="mb-4">
+        <label for="username" class="block text-gray-700 font-bold">Username:</label>
+        <input
+          type="text"
+          id="username"
+          name="username"
+          class="w-full border border-gray-300 rounded-md p-2"
+          required
+        />
+      </div>
+
+
+      <div class="mb-4">
+        <label for="password" class="block text-gray-700 font-bold">Password:</label>
+        <input
+          type="password"
+          id="password"
+          name="password"
+          class="w-full border border-gray-300 rounded-md p-2"
+          required
+        />
+      </div>
+
+
+
       <div class="mb-4">
   <label for="profile-picture" class="block text-gray-700 font-bold">Profile Picture:</label>
   <input
@@ -92,6 +120,8 @@ export default {
       formData.append("email", this.email);
       formData.append("phone", this.phone);
       formData.append("location", this.location);
+      formData.append("username", this.username);
+      formData.append("password", this.password);
       formData.append("whatsapp-link", this.whatsappLink);
       formData.append("profile-picture", this.profilePicture);
 
@@ -130,6 +160,8 @@ export default {
       phone: "",
       location: "",
       whatsappLink: "",
+      username:"",
+      password:"",
       profilePicture: null, // Use null for the initial value of the file input
     };
   },

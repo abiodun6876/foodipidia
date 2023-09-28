@@ -70,6 +70,17 @@
         Become Seller
         </router-link>
 
+        <router-link
+          :to="{ name: 'LoginForm' }"
+          class="block px-4 py-2 text-orange-500 font-bold hover:bg-orange-500 hover:text-white"
+        >
+        Login
+        </router-link>
+       
+        
+
+
+
       </nav>
   
       <!-- Desktop Navigation Menu (Hidden on mobile) -->
@@ -107,6 +118,12 @@
           Become Seller
           </router-link>
 
+          <router-link
+            :to="{ name: 'LoginForm' }"
+            class="inline-flex items-center transition-colors hover:bg-orange-500 hover:text-white"
+          >
+          Login
+          </router-link>
 
         </div>
       </nav>
