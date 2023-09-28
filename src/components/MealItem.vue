@@ -17,7 +17,7 @@
         </div>
         <div class="text-right">
           <p class="text-dark-500 font-bold">Order Now</p>
-          <p class="text-orange-500 font-bold">Call: +2348062191351</p>
+          <p class="text-orange-500 font-bold">Call: +2348168766206</p>
         </div>
       </div>
       </div>
