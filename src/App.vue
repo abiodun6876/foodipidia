@@ -4,7 +4,7 @@
 
   <br/>
 
-<h1 class="text-5xl font-bold mb-4 bg-orange-500">Verified Sellers</h1>
+<h1 class="text-5xl items-center font-bold mb-4 bg-orange-500">Verified Sellers</h1>
   <div class="flex justify-center items-center py-8">
     <!-- Seller Profiles -->
     <div v-for="seller in sellers" :key="seller.id" class="flex items-center mb-4">
@@ -103,6 +103,17 @@ export default {
           contacts: 'Email: blessing@gmail.com, Phone: +234 817 283 0886',
           whatsappLink: 'https://chat.whatsapp.com/IfQzSWlgU0t7f89bzVAYcX',
           profilePicture: 'https://pps.whatsapp.net/v/t61.24694-24/375594603_118257204709371_3821099473794452196_n.jpg?ccb=11-4&oh=01_AdTS1_rUcYj27cbofMXUD5RBWIQHkP4MhcGmysEPTd7TjQ&oe=6521997B&_nc_sid=000000&_nc_cat=106',
+      
+        },
+
+
+        {
+          id: 2,
+          name: 'Pop House Foodndrinks',
+          address: 'Lagos,Nigeria',
+          contacts: 'Email: pophouse@gmail.com, Phone:+234 816 192 9259',
+          whatsappLink: 'https://chat.whatsapp.com/IfQzSWlgU0t7f89bzVAYcX',
+          profilePicture: 'https://pps.whatsapp.net/v/t61.24694-24/358510829_782054623703862_510379510027192978_n.jpg?ccb=11-4&oh=01_AdTpR59Gj2R5lB5-guFiSOCVvZgxR3fBqQNv9AxGShHKNA&oe=6521B056&_nc_sid=000000&_nc_cat=107',
       
         },
         // Add more sellers as needed
