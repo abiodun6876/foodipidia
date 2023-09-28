@@ -101,7 +101,7 @@ export default {
           name: 'Bs Treat cake & more',
           address: 'Abuja,Nigeria',
           contacts: 'Email: blessing@gmail.com, Phone: +234 817 283 0886',
-          whatsappLink: 'https://chat.whatsapp.com/IfQzSWlgU0t7f89bzVAYcX',
+          whatsappLink: 'https://chat.whatsapp.com/BfIHWhvJsTt1sLzw257BMr',
           profilePicture: 'https://pps.whatsapp.net/v/t61.24694-24/375594603_118257204709371_3821099473794452196_n.jpg?ccb=11-4&oh=01_AdTS1_rUcYj27cbofMXUD5RBWIQHkP4MhcGmysEPTd7TjQ&oe=6521997B&_nc_sid=000000&_nc_cat=106',
       
         },
@@ -112,10 +112,21 @@ export default {
           name: 'Pop House Foodndrinks',
           address: 'Lagos,Nigeria',
           contacts: 'Email: pophouse@gmail.com, Phone:+234 816 192 9259',
-          whatsappLink: 'https://chat.whatsapp.com/IfQzSWlgU0t7f89bzVAYcX',
+          whatsappLink: 'https://chat.whatsapp.com/BfIHWhvJsTt1sLzw257BMr',
           profilePicture: 'https://pps.whatsapp.net/v/t61.24694-24/358510829_782054623703862_510379510027192978_n.jpg?ccb=11-4&oh=01_AdTpR59Gj2R5lB5-guFiSOCVvZgxR3fBqQNv9AxGShHKNA&oe=6521B056&_nc_sid=000000&_nc_cat=107',
       
         },
+
+        {
+          id: 3,
+          name: 'R&O Catering Services',
+          address: 'Epe Ogun state,Nigeria',
+          contacts: 'Email: r&o@gmail.com, Phone:+234 806 219 1351',
+          whatsappLink: 'https://chat.whatsapp.com/BfIHWhvJsTt1sLzw257BMr',
+          profilePicture: 'https://pps.whatsapp.net/v/t61.24694-24/364537343_947161339678278_7394941768265744747_n.jpg?ccb=11-4&oh=01_AdSoWPlaVZjQ62B2kLBkRguRt8T9YYXR_6yYtbFTOpe7TQ&oe=6521A505&_nc_sid=000000&_nc_cat=110',
+      
+        },
+
         // Add more sellers as needed
       ],
     };
